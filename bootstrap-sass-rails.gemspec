@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "railties", ">= 3.1.0"
-  s.add_dependency "sass-rails", ">= 3.1.0"
+  s.add_dependency "sassc-rails", "~> 2"
 
   s.add_development_dependency "rake"
   s.add_development_dependency "rails",         ">= 3.1.0"
